@@ -46,6 +46,7 @@ header h1 {
 .game main {
     letter-spacing: 3px;
     display: flex;
+    justify-content: space-between;
     vertical-align: top;
 }
 
