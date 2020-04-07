@@ -60,6 +60,10 @@ header h1 {
 }
 
 @media all and (max-width: 700px) {
+    .game main {
+        display: block;
+    }
+
     .game .youtube {
         margin-top: 10px;
         flex-basis: 100%;
