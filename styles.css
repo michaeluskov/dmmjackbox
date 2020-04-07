@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'PTRootUIWebBold';
+    src: url('fonts/PT%20Root%20UI_Bold.eot');
+    src:
+        url('fonts/PT%20Root%20UI_Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PT%20Root%20UI_Bold.woff2') format('woff2'),
+        url('fonts/PT%20Root%20UI_Bold.woff') format('woff'),
+        url('fonts/PT%20Root%20UI_Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+    padding: 0 30px 30px 30px;
+    letter-spacing: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'PTRootUIWebBold';
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 10px;
+    background: #f70a26;
+    font-size: 45px;
+    margin-top: 0;
+}
+
+.game {
+    margin-top: 20px;
+}
+
+
+.game header {
+    background: #f70a26;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.game main {
+    letter-spacing: 3px;
+    display: flex;
+    vertical-align: top;
+}
+
+.game .youtube {
+    flex: 0 0 300px;
+    height: 200px;
+}
+
+.game .youtube iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (max-width: 700px) {
+    .game .youtube {
+        margin-top: 10px;
+        flex-basis: 100%;
+        height: 300px;
+    }
+}
+
