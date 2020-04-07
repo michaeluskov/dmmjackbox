@@ -30,6 +30,12 @@ header h1 {
     background: #f70a26;
     font-size: 45px;
     margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.headerCaption {
+    font-size: 14px;
+    letter-spacing: 3px;
 }
 
 .game {
